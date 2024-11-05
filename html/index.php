@@ -154,9 +154,6 @@ require('../database/security.php');
                 <div class="stories">
                     <?php
                         if(isset($_SESSION['auth'])){
-
-                           
-                              
                                     ?>
                                     <div class="story">
                                     <div class="profile-photo">
@@ -165,8 +162,6 @@ require('../database/security.php');
                                     <p class="name">Lila James</p>
                                       </div>
                                     <?php
-        
-
                                 }
                             
                           
